@@ -13,9 +13,9 @@
 
 ## Skills для агента
 
-| Skill | Когда использовать |
-|---|---|
-| [`skills/open-plus-ai-practicum/SKILL.md`](skills/open-plus-ai-practicum/SKILL.md) | Новый воркшоп/практикум в стиле AI Практикума |
-| [`skills/open-plus-factory-future/SKILL.md`](skills/open-plus-factory-future/SKILL.md) | Новый доклад в стиле «Фабрика будущего» |
+| Skill | Каталог раскладок | Когда использовать |
+|---|---|---|
+| [`skills/open-plus-ai-practicum/SKILL.md`](skills/open-plus-ai-practicum/SKILL.md) | [`LAYOUT-RECIPES.md`](skills/open-plus-ai-practicum/LAYOUT-RECIPES.md) | Воркшоп в стиле AI Практикума |
+| [`skills/open-plus-factory-future/SKILL.md`](skills/open-plus-factory-future/SKILL.md) | [`LAYOUT-RECIPES.md`](skills/open-plus-factory-future/LAYOUT-RECIPES.md) | Доклад в стиле «Фабрика будущего» |
 
-Агенту: прочитать нужный `SKILL.md`, взять соответствующий HTML как оболочку (CSS/JS), заменить слайды и контент по брифу пользователя.
+Агенту: прочитать `SKILL.md` + каталог раскладок, взять HTML-эталон как оболочку (CSS/JS), собрать новую колоду **поштучно** — на каждый слайд можно указать другой лист оригинала («оформление как слайд 25, текст мой»).
